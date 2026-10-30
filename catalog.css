@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+.fodinha{
+    width: 30px;
+    height: 30px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.deslogar{
+    text-decoration: none;
+    color: #f47c1c;
+    border: solid 1px;
+    padding: 8px 15px;
+    border-radius: 7px;
+    transition: background-color 0.3s, transform 0.3s;
+
+}
+.deslogar:hover{
+    background-color: #f47c1c ;
+    border-color: #f47c1c;
+    color: white;
+    transform: translateY(3px);
+}
+main{
+    margin: 0;
+    padding: 60px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    background-color: #f47c1c;
+}
+
+.butao{
+    border-style: initial;
+    border: solid #f47c1c 1px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background-color: #f47c1c;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.butao:hover{
+    border-color: #f47c1c;
+    background-color: #bc6116;
+    transform: translateY(1px);
+}
+
+ul li{
+    list-style: none;
+}
+footer {
+    color:#696969;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    margin-top: 20%;
+
+}
+
